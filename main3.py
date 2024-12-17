@@ -1,7 +1,7 @@
 import pygame
 def main():
     pygame.init()
-    screenwidth,screenheight=100,100
+    screenwidth,screenheight=200,200
     screen=pygame.display.set_mode((screenwidth,screenheight))
     pygame.display.set_caption("Color changing sprite")
     colors={"red":pygame.Color("red"),"yellow":pygame.Color("yellow"),"green":pygame.Color("green"),"blue":pygame.Color("blue"),"white":pygame.Color("white")}
